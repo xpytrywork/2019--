@@ -7,6 +7,13 @@ a
     text-decoration: none;
     color: inherit;
 }
+.icon 
+{
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
 *
 {
     margin:0;
@@ -169,4 +176,31 @@ hr
 {
     width: 70%;
     color: #9da0a7; 
+}
+footer
+{
+    background-color: #E6686A;
+    text-align: center;
+}
+.userCard svg
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    fill:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+.userCard footer a
+{
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    margin:16px 16px;
+}
+.userCard  a:hover
+{
+    border-radius: 50%;
+    background-color: #cf5d5f;
 }
