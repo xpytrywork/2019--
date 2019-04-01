@@ -7,6 +7,14 @@ a
     text-decoration: none;
     color: inherit;
 }
+h1,h2,h3
+{
+    font-weight: normal;
+}
+ul,ol
+{
+    list-style-type: none;
+}
 .icon 
 {
     width: 1em; height: 1em;
@@ -110,6 +118,7 @@ a
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.48);
 }
 .userCard .welcome
 {
@@ -204,3 +213,182 @@ footer
     border-radius: 50%;
     background-color: #cf5d5f;
 }
+main
+{
+    margin-top: -320px;
+}
+.button
+{
+    font-size: 14px;
+    line-height: 14px;
+    border:1px solid #cdcfd1;
+    display: inline-block;
+    padding: 21px 55px;
+    background-color: #efefef;
+    border-radius: 2px;
+    color: #3d4451;
+    font-weight: bold;
+    transition: box-shadow 0.5s;
+}
+.downLoad
+{
+    margin-top: 32px;
+    text-align: center;
+}
+.button:hover
+{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
+    
+}
+.selfIntroduction
+{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+section.skills
+{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+section.skills h2,
+section.portfolio h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+section.skills ol
+{
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.48);
+    background-color: #efefef;
+    padding: 42px 50px 10px;
+}
+section.skills ol li:nth-child(odd)
+{
+    float: left;
+    width: 47.5%;
+    padding-right: 10px;
+}
+section.skills ol li:nth-child(even)
+{
+    float: right;
+    width: 47.5%;
+    padding-right: 10px;
+}
+.skills .progressBar{
+    height: 5px;
+    /* border: 1px solid red; */
+    background: #fae1e1;
+    border-radius: 2px;
+    margin: 4px 0 40px;
+}
+.skills .progress
+{
+    background: #E6686A;
+    width: 50%;
+    height:100%;
+    border-radius: 2px;
+}
+.skills h3
+{
+    font-size: 14px;
+    line-height: 1.1;
+    padding-right: 40px;
+}
+section.portfolio
+{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}
+section.portfolio nav
+{
+    text-align: center;
+}
+section.portfolio  ol
+{
+    text-align: center;
+    display: inline-block;
+}
+section.portfolio  ol  li
+{
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+}
+section.portfolio  ol  li:nth-child(1)
+{
+    margin-left: 0;
+}
+section.portfolio nav
+{
+    display: inline-block;
+    vertical-align: top;
+}
+section.portfolio nav .bar
+{
+   height:5px;
+   background: white;
+   margin-top: 5px;
+   margin-bottom: 60px;
+   border-radius: 2px;
+}
+section.portfolio nav .barInner
+{
+    background: #e6686a;
+    height: 100%;
+    width: 10%;
+    transition:  all 0.8s;
+}
+section.portfolio nav .bar.state-1 .barInner
+{
+    margin-left:0;
+    width: 50px;
+}
+section.portfolio nav .bar.state-2 .barInner
+{
+    margin-left:76px;
+    width: 50px;
+}
+section.portfolio nav .bar.state-3 .barInner
+{
+    margin-left:186px;
+    width: 50px;
+}
+.works
+{
+    height: 577px;
+}
+section.portfolio .works
+{
+    position: relative;
+}
+section.portfolio .big,section.portfolio .small-1,section.portfolio .small-2
+{
+    position: absolute;
+}
+section.portfolio .big
+{
+    top: 0px;
+    left: 0px;
+}
+section.portfolio .small-1
+{
+    top: 0px;
+    left: 607px;
+}
+section.portfolio .small-2
+{
+    top: 298px;
+    left: 607px;
+}
+
+
+
+
+
+
